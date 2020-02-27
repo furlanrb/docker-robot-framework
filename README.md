@@ -1,8 +1,8 @@
-# Robot Framework in Docker Alpine, with Firefox and Chrome
+# Robot Framework in Docker Alpine, with Firefox and Chrome + Data Driver Library
 
 ## What is it?
 
-This project consists of a Docker image containing a Robot Framework installation.
+This project consists of a Docker image containing a Robot Framework installation + Datadriver
 
 This installation also contains Firefox, Chrome and the Selenium library for Robot Framework. The test cases and reports should be mounted as volumes.
 
@@ -24,6 +24,7 @@ The versions used are:
 * [Robot Framework Requests](https://github.com/bulkan/robotframework-requests) 0.6.2
 * [Robot Framework SeleniumLibrary](https://github.com/robotframework/SeleniumLibrary) 4.2.0
 * [Robot Framework SSHLibrary](https://github.com/robotframework/SSHLibrary) 3.4.0
+* [Robot Framework Datadriver](https://pypi.org/project/robotframework-datadriver) 0.3.6
 * Firefox 73.0
 * Chromium 79.0
 
